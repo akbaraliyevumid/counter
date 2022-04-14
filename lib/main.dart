@@ -77,22 +77,16 @@ class _MyHomePageState extends State<MyHomePage> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            /*const Text(
-              'You have pushed the button this many times:',
-            ),*/
             Text(
               '$_counter',
               style:
                   const TextStyle(fontWeight: FontWeight.bold, fontSize: 100),
-              //style: Theme.of(context).textTheme.headline4,
             ),
             const SizedBox(height: 30),
             ElevatedButton(
               onPressed: () {
                 _vibration();
-
                 _incrementCounter();
-                //HapticFeedback.vibrate();
               },
               child: const Icon(Icons.add),
               style: ElevatedButton.styleFrom(
