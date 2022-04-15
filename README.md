@@ -1,6 +1,8 @@
 # counter
 
-A new Flutter project.
+This is my first normal working program written in Flutter
+
+![alt text](scrsh/main.jpg "Main page")
 
 ## Getting Started
 
